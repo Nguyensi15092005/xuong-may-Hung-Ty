@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&display=swap');
+
+.main{
+    border: 3px solid #ddd;
+    background: radial-gradient(circle, rgba(173, 216, 230, 0.6) 30%, rgba(0, 191, 255, 0.3) 70%);
+    box-shadow: 
+    inset 5px 5px 10px rgba(0, 0, 0, 0.3),    /* Bóng ở góc trên bên trái */
+    inset -5px 5px 10px rgba(0, 0, 0, 0.3),   /* Bóng ở góc trên bên phải */
+    inset 5px -5px 10px rgba(0, 0, 0, 0.3),   /* Bóng ở góc dưới bên trái */
+    inset -5px -5px 10px rgba(0, 0, 0, 0.3);  /* Bóng ở góc dưới bên phải */
+}
+.title{
+    color:#740303;
+    font-size: 30px;
+    font-family: "Lobster", sans-serif;
+    margin: 0;
+    padding: 15px 0;
+    background: radial-gradient(circle, rgba(113, 196, 260, 0.9) 70%, rgba(0, 191, 255, 0.3) 90%);
+}
+a{
+    border: 1px solid rgb(96, 7, 99);
+    width: 250px;
+    padding:10px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+}
+a:hover{
+    text-decoration: none;
+}
+
+a i,img{
+    font-size: 40px;
+    color:#432ff1;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.inner-zalo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+a span{
+    font-weight: 600;
+    font-size: 20px;
+    color:#740303;
+}
+.inner-phone i{
+    color: rgb(245, 84, 20);
+}
+.address i{
+    font-size: 30px;
+    color: #f14907;
+    padding-right: 5px;
+}
+.address p{
+    font-size: 20px;
+}
+.address{
+    font-size: 16px;
+    font-weight: 550;
+    color:#740303;
+}
+.may{
+    margin-top:15px ;
+}
+
